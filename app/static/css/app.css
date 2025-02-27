@@ -1,3 +1,43 @@
 body {
-    padding-top: 5rem;
+    padding-top: 3.5rem;
+   
+}
+
+#top-profile{
+    background-color: #5cbefa;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-left: -160px;
+    margin-right: -160px;
+
+}
+img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#bottom-profile{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#acc-details{
+    word-spacing: 80px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+#acc-details2 {
+    word-spacing: 59px;
+   margin-left: 50px;
+}
+button{
+    background-color: #5cbefa;
+    color: white;
+    width: 140px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
 }

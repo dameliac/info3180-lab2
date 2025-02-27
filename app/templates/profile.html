@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+<!--Exercise part 2-->
+{% block main %}
+<div id="top-profile">
+    <img src="{{url_for('static', filename ='IMG_2812.jpg')}}" alt="An image of a girl."/>
+    <br>
+    <h3>Damelia Coleman</h3>
+    <p>@DamC
+        <br>
+        Kingston, Jamaica
+        <br>
+        {{joineddate}}
+    </p>
+</div>
+<div id="bottom-profile">
+    <p style="color: #d1d0d0;">I am a curious individual who learns by working with tools to figure out how they work. I always try to master a new skill before learning another.<br>
+        If you're interested in doing something fun together, please contact me. 
+    </p>
+    <p id="acc-details"><b>20</b> <b>1,678</b> <b>1</b></p>
+    <p id="acc-details2" style="color: #d1d0d0;">Posts Following Followers</p><br>
+    <button> Follow </button>
+</div>
+
+{% endblock %}
